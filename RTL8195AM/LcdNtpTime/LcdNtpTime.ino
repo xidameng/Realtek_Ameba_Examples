@@ -5,8 +5,8 @@
 
 LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 int status = WL_IDLE_STATUS;
-char ssid[] = "RealEZ";  //  your network SSID (name)
-char pass[] = "RealEasy";       // your network password
+char ssid[] = "yourNetwork";  //  your network SSID (name)
+char pass[] = "yourPassword";       // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 unsigned int localPort = 2390;      // local port to listen for UDP packets
